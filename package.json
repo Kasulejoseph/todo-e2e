@@ -1,0 +1,28 @@
+{
+  "name": "todo-e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome:headless tests/**/* -r xunit:/tmp/test-results/testcafe/results.xml",
+    "local": "testcafe chrome tests -e -q --debug-on-fail --hostname localhost"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kasulejoseph/todo-e2e.git"
+  },
+  "author": "josephkasule",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kasulejoseph/todo-e2e/issues"
+  },
+  "homepage": "https://github.com/Kasulejoseph/todo-e2e#readme",
+  "dependencies": {
+    "faker": "^5.4.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "testcafe": "*",
+    "testcafe-reporter-xunit": "^*"
+  }
+}
