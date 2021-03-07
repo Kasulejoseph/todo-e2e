@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "testcafe chrome:headless tests/**/* -r xunit:/tmp/test-results/testcafe/results.xml",
+    "test": "testcafe chrome:headless tests -r xunit:/tmp/test-results/testcafe/results.xml",
     "local": "testcafe chrome tests -e -q --debug-on-fail --hostname localhost"
   },
   "repository": {
