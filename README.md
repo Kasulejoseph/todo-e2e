@@ -2,9 +2,15 @@
 
 ## Development
 
+### Sites
+```
+Staging URL: https://letgetitdone.netlify.app/
+Production URL: https://main.dvdg6wnbn8lit.amplifyapp.com/
+```
+
 ### GitHub
 ```
-git clone repo-name
+git clone https://github.com/Kasulejoseph/todo-e2e.git
 ```
 
 ### Install
